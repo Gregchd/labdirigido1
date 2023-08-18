@@ -30,26 +30,7 @@ int main(int argc, char** argv) {
 	return 0;
 }
 
-int mayor(int arrNum[15], int n) {
-	int i = 0, mayor = 0;
-	while (i < n) {
-		if (arrNum[i] > mayor) {
 
-			mayor = arrNum[i];
-		}
-		i++;
-	}
-	return mayor;
-}
-
-void Fibonacci(int fibonacci[30]) {
-	fibonacci[0] = 1;
-	fibonacci[1] = 2;
-	for (int i = 2; i < 30; i++) {
-		fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
-	}
-
-}
 void orden(int fibonacci[30], char arrWord[15], int arrNum[15], int n, int mayor) {
 	int i = 0, j = 0;
 	bool stop = false, found = false;
