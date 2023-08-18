@@ -30,17 +30,7 @@ int main(int argc, char** argv) {
 	return 0;
 }
 
-int mayor(int arrNum[15], int n) {
-	int i = 0, mayor = 0;
-	while (i < n) {
-		if (arrNum[i] > mayor) {
 
-			mayor = arrNum[i];
-		}
-		i++;
-	}
-	return mayor;
-}
 
 void Fibonacci(int fibonacci[30]) {
 	fibonacci[0] = 1;
